@@ -1,6 +1,6 @@
+![图片](./img/js.png)
 ## 推荐
-[掘金好文推荐](http://btf.pxiou.club/)
-每天一个🍎（对掘金的好文章做了简单的筛选，简化了自己的挑选，提高效率）
+- [博客地址](http://blog.pxbtf.com)
 ## 我要做什么呢？🐉
 我一直想写一个js知识库，对它语言本身的特点深入剖析，让我们认清它的全貌。同时我也会做一些简单知识的积累。
 ## 我为什么要这样做呢？🐉
@@ -10,15 +10,13 @@
 - 一般我会使用xmind进行梳理，如果你有xmind,可以下载xmind文件直接查看，当然我也把它转成了pdf，你可以直接看pdf文件夹。
 - 通过阅读js书籍，（小黄书，红宝书），看一些js大牛的博客，网上的博文，以及线下交流，项目开发遇到的问题不断去深入。
 ## 当前更新进度🐉
-#### web性能优化
-[雅虎军规主要从七个方面：页面内容 css javaScript 服务器 cookies 移动端 图片](./xmind/雅虎军规.xmind)
-#### web安全
-[五种安全服务，八种安全机制，常见web安全 xss csrf,sql注入,os注入,DDos](./xmind/web安全.xmind)
-#### webpack系列（结合深入浅出webpack,以及网上博文进行整理）
-[webpack系列](https://github.com/XINXINP/CI-CD/tree/master/webpack%E7%B3%BB%E5%88%97%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89)
-#### 深入js知识系列
-更新中。。。
-#### web面试知识
-更新中。。。
+|  技术点   | 主要内容  |
+|  ----  | ----  |
+|web性能优化| [雅虎军规主要从七个方面：页面内容 css javaScript 服务器 cookies 移动端 图片](./xmind/雅虎军规.xmind)|
+| web安全  |[雅虎军规主要从七个方面：页面内容 css javaScript 服务器 cookies 移动端 图片](./xmind/雅虎军规.xmind) |
+|webpack系列|[webpack系列](https://github.com/XINXINP/CI-CD/tree/master/webpack%E7%B3%BB%E5%88%97%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89)|
+|js面试集锦|[面试常考知识点](./js/README.md)|
+|《你不知道的javaScript》|[几个重要的特性的深度理解](./jsknow/README.md)|
+|《javaScript高级程序设计》|[js各个部分理解](./gcjs/README.md)|
 ## 最后🐉
-大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2020年身体健健康康，技术水平越来越高！
+大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
