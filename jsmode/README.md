@@ -10,6 +10,7 @@
 - 看源码，有时侯看框架源码的时候，会发现其中运用了设计模式，比如发布订阅模式，路由的策略模式，工厂模式，原型模式等等
 - 待补充 。。。
 ### 设计模式之旅
+![更新进度](../img/jsmode.png)
 #### singleton（单例模式）
 - ✅ 单、 创建对象的最佳方式
 - 特点：提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。
@@ -27,7 +28,7 @@ class Single {
         let instance; //闭包
         return function() {
             if (!instance) {
-                instance = new Singlet();
+                instance = new Single();
             }
             return instance;//自己创建自己的实例
         }
