@@ -19,7 +19,7 @@
 |《javaScript高级程序设计》|[js各个部分理解](./gcjs/README.md)|
 |手写系列|[js手写简易的特性](./handWrite/README.md)|
 |《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
-|《23种JavaScripipt设计模式》|[设计模式](./xmind/javaScript设计模式.md)[自我理解](./jsjmode/README.md)|
+|《23种JavaScript设计模式》|[设计模式](./jsmode/README.md)|
 ## 最后🐂
 大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
 - [博客地址📌](http://blog.pxbtf.com)
