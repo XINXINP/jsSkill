@@ -12,12 +12,14 @@
 |  ----  | ----  |
 |web性能优化| [雅虎军规主要从七个方面：页面内容 css javaScript 服务器 cookies 移动端 图片](./xmind/雅虎军规.xmind)|
 | web安全  |[五种安全服务，八种安全机制，常见web安全 xss csrf,sql注入,os注入,DDos](./xmind/we.xmind) |
+|浏览器的几个特点||
 |webpack系列|[webpack系列](https://github.com/XINXINP/CI-CD/tree/master/webpack%E7%B3%BB%E5%88%97%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89)|
 |js面试集锦|[面试常考知识点](./js/README.md)|
 |《你不知道的javaScript》|[几个重要的特性的深度理解](./jsknow/README.md)|
 |《javaScript高级程序设计》|[js各个部分理解](./gcjs/README.md)|
 |手写系列|[js手写简易的特性](./handWrite/README.md)|
 |《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
+|《23种JavaScripipt设计模式》|[设计模式](./xmind/javaScript设计模式.md)[自我理解](./jsjmode/README.md)|
 ## 最后🐂
 大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
 - [博客地址📌](http://blog.pxbtf.com)
