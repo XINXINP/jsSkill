@@ -7,17 +7,25 @@
 ## 我要怎么做呢？🐂
 - 一般我会使用xmind进行梳理，如果你有xmind,可以下载xmind文件直接查看，当然我也把它转成了pdf，你可以直接看pdf文件夹。
 - 通过阅读js书籍，（小黄书，红宝书），看一些js大牛的博客，网上的博文，以及线下交流，项目开发遇到的问题不断去深入。
+## 大纲
+![js大纲](./img/jsContent.png)
 ## 当前更新进度🐂
 |  技术点   | 主要内容  |
 |  ----  | ----  |
 |web性能优化| [雅虎军规主要从七个方面：页面内容 css javaScript 服务器 cookies 移动端 图片](./xmind/雅虎军规.xmind)|
 | web安全  |[五种安全服务，八种安全机制，常见web安全 xss csrf,sql注入,os注入,DDos](./xmind/we.xmind) |
+|浏览器的几个特点|[图解浏览器](./xmind/brower.md)|
 |webpack系列|[webpack系列](https://github.com/XINXINP/CI-CD/tree/master/webpack%E7%B3%BB%E5%88%97%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89)|
 |js面试集锦|[面试常考知识点](./js/README.md)|
 |《你不知道的javaScript》|[几个重要的特性的深度理解](./jsknow/README.md)|
 |《javaScript高级程序设计》|[js各个部分理解](./gcjs/README.md)|
 |手写系列|[js手写简易的特性](./handWrite/README.md)|
 |《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
+|《23种JavaScript设计模式》|[设计模式](./jsmode/README.md)|
+|newMVVM|[newMVVM](./xmind/newMVVM.xmind)|
+|深入理解http工作原理|[深入理解http工作原理](./xmind/http.xmind)|
+|Node学习|[Node学习](./xmind/Node.xmind)|
+|前端知识点标签|[知识点标签](./xmind/tab.xmind)|
 ## 最后🐂
 大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
 - [博客地址📌](http://blog.pxbtf.com)
