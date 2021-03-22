@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-12 14:28:32
- * @LastEditTime: 2021-03-18 10:39:04
+ * @LastEditTime: 2021-03-22 08:58:44
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsSkill\js\README.md
@@ -51,3 +51,36 @@ JSON.parse(obj,(k,v)=>{
 - 就是作用域定义在代码的书写阶段而不是运行阶段，我们可以这样理解，如果函数A内嵌套函数B，函数B可以访问函数A的变量。无论运行后是如何复杂执行的，作用域都是在书写的时候就确定了，动态改变的可能是this,因为this是“最后谁调用的就指向谁”。
 - 闭包呢我理解有两个功能：不受作用域限制，可提取函数内部的变量的一种手法，另一个就是让这些变量的值始终保持在内存中。
 - 由于闭包可能会常驻内存，所以要注意合理使用闭包。还有一些问题，在以后的章节会提到。今天就这样吧。👋
+### 3、实现一下防抖节流函数
+#### 防抖函数
+- 防抖：场景理解:在一段时间内，你一直在做重复的事情100次，防抖就是只让你在这段时间内最后一次生效，换言之，这段时间，你只做成功了一次。
+- 比如你女朋友用微信给你发消息，你会看到"对方正在输入。。。"，仔细分析一下它是如何设计的，我们可以看到防抖的身影。
+- 简单代码如下
+````html
+   <input type="text" id="it">
+   <p class="inText">你好</p>
+````
+- 每当输入时触发，清除之前的计时事件（改变状态），重新计时
+````javaScript
+let s;
+function debounce(fn, w) {
+    return function () {
+        document.querySelector('.inText').innerText = "对方正在输出。。。"
+        if(s){ clearTimeout(s);}
+        s = setTimeout(()=>{
+            fn()
+        },w)
+     }
+}
+function input() {
+    document.querySelector('.inText').innerText = "请输入"
+ }
+ var x=document.querySelector("#it")
+x.addEventListener('input',function () {
+     debounce(input,2000)()
+ })
+````
+#### 节流函数
+- 节流是让多次执行变成每隔一段时间执行。（开源节流）
+- 
+- 
