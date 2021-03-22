@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-12 14:28:32
- * @LastEditTime: 2021-03-22 08:58:44
+ * @LastEditTime: 2021-03-22 11:28:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsSkill\js\README.md
@@ -82,5 +82,51 @@ x.addEventListener('input',function () {
 ````
 #### 节流函数
 - 节流是让多次执行变成每隔一段时间执行。（开源节流）
-- 
-- 
+````javaScript
+var canRun = true
+function throttle(){
+    if(!canRun){
+      return
+    }
+    canRun = false
+    setTimeout( function () {
+        console.log("函数节流")
+        canRun = true
+      }, 500)
+    }
+//测试
+setInterval(() => {
+    console.log(1);
+    throttle()
+}, 100 );
+````
+### 5、new操作符做了什么事情，如何手写实现一个new的操作？
+#### 思路
+- 获取传入的构造函数
+- 创建一个新的对象，将构造函数的原型继承到新的对象上
+- 执行构造函数，改变this到新的对象上，(这是新对象在继承构造函数的作用域链)
+- 判断构造函数的执行结果，返回合适的结果
+````javaScript
+function Person(n) {
+    this.age = 23
+    this.name = n
+
+}
+Person.prototype.sayName = function () {
+    console.log(this.name);
+}
+Person.prototype.sayAge = function () {
+    console.log(this.age);
+}
+function _new(){
+let constr = Array.prototype.shift.call(arguments)
+let obj = Object.create(constr.prototype);
+let result = constr.apply(obj,arguments)
+return result instanceof Object?result:obj
+}
+// let per = new Person('小明')
+let per = _new(Person,'小明')
+
+per.sayName()
+per.sayAge()
+````
