@@ -1,12 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-05-17 15:07:40
- * @LastEditTime: 2021-05-17 15:25:33
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \jsSkill\README.md
--->
-![js图片](./img/js.png)
 ## 我要做什么呢？🐂
 我一直想写一个js知识库，对它语言本身的特点深入剖析，方便在工作，面试中解决问题，让我们认清它的全貌。同时我也会做一些简单知识的积累。
 ## 我为什么要这样做呢？🐂
@@ -31,16 +22,21 @@
 |浏览器的几个特点|[图解浏览器](./xmind/brower.md)|
 |webpack系列|[webpack系列](https://github.com/XINXINP/CI-CD/tree/master/webpack%E7%B3%BB%E5%88%97%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89)|
 |js面试集锦|[面试常考知识点](./js/README.md)|
-|《你不知道的javaScript》|[几个重要的特性的深度理解](./jsknow/README.md)|
-|《javaScript高级程序设计》|[js各个部分理解](./gcjs/README.md)|
 |手写系列|[js手写简易的特性](./handWrite/README.md)|
-|《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
-|《23种JavaScript设计模式》|[设计模式](./jsmode/README.md)|
 |newMVVM|[newMVVM](./xmind/newMVVM.xmind)|
 |深入理解http工作原理|[深入理解http工作原理](./xmind/http.xmind)|
 |Node学习|[Node学习](./xmind/Node.xmind)|
 |前端知识点标签|[知识点标签](./xmind/tab.xmind)|
 |前端常见解决方案|[解决方案](./xmind/tab.xmind)|
+## 书籍列表
+|  书籍名称   | 主要内容  |
+|  ----  | ----  |
+|《你不知道的javaScript》|[几个重要的特性的深度理解](./jsknow/README.md)|
+|《javaScript高级程序设计》|[阅读感悟](./gcjs/README.md)|
+|《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
+|《23种JavaScript设计模式》|[设计模式](./jsmode/README.md)|
+|《JavaScript忍者秘籍》|[设计模式](./jsrzmj/README.md)|
 ## 最后🐂
 大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
 - [博客地址📌](http://blog.pxbtf.com)
+- ![js图片](./img/js.png)
