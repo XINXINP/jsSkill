@@ -35,7 +35,8 @@
 |《javaScript高级程序设计》|[阅读感悟](./gcjs/README.md)|
 |《深入浅出Node.js》|[了解node.js特性](./node/README.md)|
 |《23种JavaScript设计模式》|[设计模式](./jsmode/README.md)|
-|《JavaScript忍者秘籍》|[设计模式](./jsrzmj/README.md)|
+|《JavaScript忍者秘籍》|[忍者秘籍](./jsrzmj/README.md)|
+|《深入浅出ES6》|[知识点](./jses6/README.md)|
 ## 最后🐂
 大家有什么问题，可以在issue中提交，我看到后会及时回复的。祝愿大家在2021年身体健健康康，技术水平越来越高！
 - [博客地址📌](http://blog.pxbtf.com)
